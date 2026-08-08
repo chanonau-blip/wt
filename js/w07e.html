@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label for="a">A</label>
+    <input type="text" name="a" id="a"> <br> <br>
+    <label for="a">B</label>
+    <input type="text" name="b" id="b"> <br> <br>
+    <label for="a">C</label>
+    <input type="text" name="c" id="c"> <br> <br>
+    <button id="calc">Caculate</button>
+    
+    <script>
+        let calc = document.querySelector("#calc");
+        calc.addEventListener("click", function(){
+            let a = document.querySelector("#a");
+            let b = document.querySelector("#b");
+            let c = document.querySelector("#c");
+            c.value = parseInt(a.value) + parseInt(b.value)
+        }
+    </script>
+</body>
+</html>
