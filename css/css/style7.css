@@ -1,0 +1,82 @@
+.container {
+    position: relative;
+    width: 90%;
+    max-width: 1000px;
+    height: 550px;
+    border: 1px solid #ffffff;
+    overflow: hidden;
+}
+
+.left-group {
+    position: absolute;
+    top: 50px;
+    left: 80px;
+    width: 240px;
+    height: 420px;
+}
+
+.img-black {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 150px;
+    height: 250px;
+    border-radius: 12px;
+    object-fit: cover;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 15);
+    z-index: 1;
+}
+
+.img-front {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 160px;
+    height: 250px;
+    border-radius: 12px;
+    object-fit: cover;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+}
+
+.center-profile {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 90%;
+    object-fit:cover;
+    display: block;
+    box-shadow: 0 4px 15px rgb(0, 0, 0, 0.15);
+}
+
+.status-dot {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    width: 22px;
+    height: 22px;
+    background-color:#8bf118;
+    border: 3px solid #ffffff;
+    border-radius: 50%;
+    z-index: 3;
+}
+
+.right-group {
+    position: absolute;
+    top: 60px;
+    right: 80px;
+}
+
+.img-right {
+    width: 160px;
+    height: 250px;
+    border-radius: 12px;
+    object-fit: cover;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
